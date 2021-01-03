@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
+
 .container{
   text-align: center;
   margin-top: 100px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+#newGame{
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  border: 2px solid rgb(187, 255, 0);
+  background-color: hsl(69, 100%, 50%);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+#results{
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
 }
 
 /* CSS classes you can use on your table td to display the relevant tile */
