@@ -13,6 +13,7 @@
   background-color: hsl(69, 100%, 50%);
   padding: 10px 20px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 #results{
@@ -31,6 +32,7 @@ td.opened {
 }
 td.flagged {
   background: url('img/flag.svg');
+  /* pointer-events:none; */
 }
 td.question {
   background: url('img/question.svg');
