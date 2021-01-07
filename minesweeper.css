@@ -6,35 +6,49 @@
   font-family: 'Maven Pro', sans-serif;
 }
 
+h1{
+  font-size: 3em;
+}
+
+h3{
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
 #newGame{
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
-  border: 2px solid rgb(187, 255, 0);
   background-color: hsl(69, 100%, 50%);
-  padding: 10px 20px;
+  padding: 10px 40px;
   border-radius: 20px;
   cursor: pointer;
+  margin: auto;
+  font-size: 2em;
 }
 
 #results{
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
-  margin-top: 80px;
+  margin-top: 20px;
+}
+
+#results h1{
+  margin: 0;
 }
 
 .record{
   margin: auto;
+  margin-top: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 500px;
   text-align: center;
 }
 
 .numOfMines {
 width: 200px;
-}
-.timer {
-width: 200px;
+text-align: center;
 }
 
 /* CSS classes you can use on your table td to display the relevant tile */
@@ -79,8 +93,9 @@ td.mine-neighbour-8 {
 
 /* Positioning the Minesweep table and make sure the cells are square */
 table{
-  margin: 80px auto;
+  margin: 20px auto;
   border-collapse: collapse;
+  margin-bottom: 100px;
 }
 
 table #minesweeper {
@@ -89,7 +104,7 @@ table #minesweeper {
   border-collapse: collapse;
 }
 table #minesweeper td {
-  width: 50px;
-  height: 50px;
+  width: 2em;
+  height: 2em;
   background-size: cover;
 }
