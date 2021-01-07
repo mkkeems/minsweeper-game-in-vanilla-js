@@ -39,60 +39,57 @@ width: 200px;
 
 /* CSS classes you can use on your table td to display the relevant tile */
 td.unopened {
-  background: url('img/unopened.svg');
+  background: url('img/square (7).svg');
   cursor: pointer;
 }
 td.opened {
-  background: url('img/opened.svg');
+  background: url('img/square (10).svg');
 }
 td.flagged {
-  background: url('img/flag.svg');
+  background: url('img/finish.svg');
   /* pointer-events:none; */
-}
-td.question {
-  background: url('img/question.svg');
 }
 td.mine {
   background: url('img/mine.png');
 }
 td.mine-neighbour-1 {
-  background: url('img/1.svg');
+  background: url('img/1 (1).svg');
 }
 td.mine-neighbour-2 {
-  background: url('img/2.svg');
+  background: url('img/2 (3).svg');
 }
 td.mine-neighbour-3 {
-  background: url('img/3.svg');
+  background: url('img/3 (1).svg');
 }
 td.mine-neighbour-4 {
-  background: url('img/4.svg');
+  background: url('img/4 (3).svg');
 }
 td.mine-neighbour-5 {
-  background: url('img/5.svg');
+  background: url('img/5 (2).svg');
 }
 td.mine-neighbour-6 {
-  background: url('img/6.svg');
+  background: url('img/6 (2).svg');
 }
 td.mine-neighbour-7 {
-  background: url('img/7.svg');
+  background: url('img/7 (2).svg');
 }
 td.mine-neighbour-8 {
-  background: url('img/8.svg');
+  background: url('img/8 (1).svg');
 }
 
 /* Positioning the Minesweep table and make sure the cells are square */
 table{
   margin: 80px auto;
+  border-collapse: collapse;
 }
 
 table #minesweeper {
   margin: auto;
   margin-top: 3em;
-  border: 1px solid #999;
   border-collapse: collapse;
 }
 table #minesweeper td {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   background-size: cover;
 }
