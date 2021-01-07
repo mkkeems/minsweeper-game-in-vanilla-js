@@ -22,6 +22,21 @@
   margin-top: 80px;
 }
 
+.record{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  text-align: center;
+}
+
+.numOfMines {
+width: 200px;
+}
+.timer {
+width: 200px;
+}
+
 /* CSS classes you can use on your table td to display the relevant tile */
 td.unopened {
   background: url('img/unopened.svg');
@@ -77,7 +92,7 @@ table #minesweeper {
   border-collapse: collapse;
 }
 table #minesweeper td {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   background-size: cover;
 }
